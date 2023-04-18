@@ -16,6 +16,7 @@
     position: fixed;
     z-index: 2;
     border-bottom: 1px solid #ee404d;
+    top:0;
 }
 
 .nav-img img{
@@ -76,11 +77,18 @@
 .dropdown{
   display: none;
   background: transparent;
+  transition:.5s ease-in-out;
 }
 .dropdown-block{
-  display: block;
+  display:block;
   text-align: center;
-  position: relative;
+  position:fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  float: inline-start;
+  transform: .5s;
+  width: 100%;
   /* background: transparent; */
 }
 .dp-li{

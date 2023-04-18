@@ -35,6 +35,9 @@
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 0 7px 3px #00000069;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .product-card-body{
     width: 25vw;
@@ -74,15 +77,6 @@
     text-align: center;
   }
 
-  #prefeex{
-    background-image: linear-gradient(90deg,#ee404cd2,#ee404d);
-  }
-  #ledgiq{
-    background-image: linear-gradient(90deg,#bbbaba,#2da01e);
-  }
-  #shoccho{
-    background-image: linear-gradient(90deg,#6484ff,#af00ff);
-  }
   .the-back .product-card-des{
     color: rgb(253, 251, 251);
     display: flex;
@@ -90,15 +84,23 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 17px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 400;
     text-align: justify;
-    height: 90%;
+    height: 100%;
     width:90%;
     margin: 0 auto;
   }
+
+  
+  .the-back .product-card-des h1{
+    font-size: 28px;
+  }
+
   .the-back p{
     height: 70%;
+    display: flex;
+    align-items: center;
   }
   .the-back button{
     padding: 2% 5%;
@@ -109,5 +111,18 @@
     cursor: pointer;
     box-shadow: 0 0 7px 3px #00000069;
   }
+
+
+
+  #prefeex{
+    background-image: linear-gradient(90deg,#ee404cd2,#ee404d);
+  }
+  #ledgiq{
+    background-image: linear-gradient(90deg,#bbbaba,#2da01e);
+  }
+  #shoccho{
+    background-image: linear-gradient(90deg,#6484ff,#af00ff);
+  }
+  
 
 

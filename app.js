@@ -25,6 +25,18 @@ let ham=document.getElementById('ham').addEventListener("click", () => {
   }
   
 });
+
+let dp_li=document.getElementsByClassName('dp_li').addEventListener("click", () => {
+  console.log("clicked");
+  const navList = document.getElementsByClassName('dp_li');
+  if(dp.classList == 'dropdown-block'){
+    dp.classList = 'dropdown';
+  }
+  else{
+    navList.classList = 'dropdown-block';
+  }
+});
+
 // var slideImg = document.getElementById('slideImg');
 
 // var Images = new Array(

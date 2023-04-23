@@ -9,13 +9,13 @@ const removeClassOnScroll = () => prelogo.classList.remove("scrol")
 
 window.addEventListener('scroll', function() { 
   scrollpos = window.scrollY;
-    console.log("Helllo", scrollpos)
+    // console.log("Helllo", scrollpos)
   if (scrollpos >= scrollChange) { addClassOnScroll() }
   else removeClassOnScroll()
 });
 
 let ham=document.getElementById('ham').addEventListener("click", () => {
-  // console.log("clicked");
+  console.log("clicked")
   const dp = document.getElementById('dp');
   if(dp.classList == 'dropdown'){
     dp.classList = 'dropdown-block';
@@ -26,16 +26,15 @@ let ham=document.getElementById('ham').addEventListener("click", () => {
   
 });
 
-let dp_li=document.getElementsByClassName('dp_li').addEventListener("click", () => {
-  console.log("clicked");
-  const navList = document.getElementsByClassName('dp_li');
-  if(dp.classList == 'dropdown-block'){
+document.addEventListener('click', function outside(event) {
+  const dp = document.getElementById('dp');
+  const ham=document.getElementById('ham');
+  console.log("x")
+  if (!ham.contains(event.target)) {
     dp.classList = 'dropdown';
   }
-  else{
-    navList.classList = 'dropdown-block';
-  }
 });
+
 
 // var slideImg = document.getElementById('slideImg');
 

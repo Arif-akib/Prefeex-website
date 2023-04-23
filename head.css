@@ -92,11 +92,11 @@
   transform: translateY(50px);
   /* background: transparent; */
 }
-.dp_li{
+.dpli{
   padding: 10px;
   background:#ee404d;
 }
-.dp_li a{
+.dpli a{
   color: #fff;
   font-size: 14px;
   font-weight: 600;

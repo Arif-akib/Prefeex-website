@@ -35,6 +35,15 @@ document.addEventListener('click', function outside(event) {
   }
 });
 
+// let sendMessage = document.querySelector('button');
+// let inputs = document.querySelectorAll('input');
+// // let textArea = document.getElementById('text-area');
+// sendMessage.addEventListener('click',() =>{
+//   inputs.forEach(input => input.value ='');
+//   // textArea.forEach(textarea => textArea.value='');
+//   console.log('x')
+// });
+
 
 // var slideImg = document.getElementById('slideImg');
 

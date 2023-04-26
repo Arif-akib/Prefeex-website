@@ -85,6 +85,18 @@
         grid-template-columns:2fr 1fr;
         grid-template-rows:1fr 1fr; 
      }
+     .the-card{
+        width: 65vw;
+        height: 65vw;
+    }
+    .product-card-body{
+        width: 65vw;
+        height: 65vw;
+    }
+    .concern-card-body{
+        height:65vw;
+        width: 65vw;
+    }
      
 }
 

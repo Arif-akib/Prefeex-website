@@ -76,8 +76,6 @@
 
 .dropdown{
   display: none;
-  background: transparent;
-  transition:.5s ease-in-out;
 }
 .dropdown-block{
   display:block;
@@ -87,10 +85,8 @@
   top: 0;
   z-index: 1;
   float: inline-start;
-  transform: .5s;
   width: 100%;
   transform: translateY(50px);
-  /* background: transparent; */
 }
 .dpli{
   padding: 10px;

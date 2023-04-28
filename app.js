@@ -1,3 +1,6 @@
+
+// prefeex navbar logo start
+
 let scrollpos = window.scrollY
 
 const prelogo = document.getElementById("prelogo")
@@ -14,6 +17,10 @@ window.addEventListener('scroll', function() {
   else removeClassOnScroll()
 });
 
+// prefeex navbar logo end
+
+// dropdown start
+
 let ham=document.getElementById('ham').addEventListener("click", () => {
   console.log("clicked")
   const dp = document.getElementById('dp');
@@ -26,6 +33,10 @@ let ham=document.getElementById('ham').addEventListener("click", () => {
   
 });
 
+// dropdown end
+
+// dropdown navbar start
+
 document.addEventListener('click', function outside(event) {
   const dp = document.getElementById('dp');
   const ham=document.getElementById('ham');
@@ -34,6 +45,20 @@ document.addEventListener('click', function outside(event) {
     dp.classList = 'dropdown';
   }
 });
+
+// dropdown navbar end
+
+// client slider start
+
+let cContainer=document.getElementById('cContainer');
+let cItem=document.getElementsByClassName('c-item');
+setInterval(function next(){cContainer.append(cItem[0])},1000);
+// document.getElementById("cItem").style.animation = "cItem 4s 2";
+
+// client slider end
+
+
+
 
 // let sendMessage = document.querySelector('button');
 // let inputs = document.querySelectorAll('input');

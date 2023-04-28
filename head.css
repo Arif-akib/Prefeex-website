@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -30,18 +31,18 @@
     transform: translateY(18px);
     margin-left: 10vw;
     transition:400ms ease-in-out;
-    border-bottom:none;
   }
+
   .nav-img img.scrol{
     width: 220px;
     transform:translateY(4px);
     padding: 0px, 0px,0px,0px;
     border-radius: 0px;
-    border: none;
+    align-items: center;
     border-bottom: 1px solid red;
     transition:400ms ease-in-out;
-  
   }
+
   .nav-img{
     display: flex;
     align-items: center;
@@ -77,6 +78,7 @@
 .dropdown{
   display: none;
 }
+
 .dropdown-block{
   display:block;
   text-align: center;
@@ -88,10 +90,12 @@
   width: 100%;
   transform: translateY(50px);
 }
+
 .dpli{
   padding: 10px;
   background:#ee404d;
 }
+
 .dpli a{
   color: #fff;
   font-size: 14px;
@@ -132,6 +136,7 @@
     margin-top: 100px;
   
   }
+  
   .heading span{
     color: grey;
   }
